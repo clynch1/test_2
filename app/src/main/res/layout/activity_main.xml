@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="whisc.test_2.MainActivity" >
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Reg"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Update"
+        android:layout_below="@+id/Update"
+        android:layout_marginTop="46dp"
+        android:text="Delete User" />
+
+    <Button
+        android:id="@+id/Reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Update"
+        android:layout_below="@+id/Login"
+        android:layout_marginTop="23dp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Reg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Update Info" />
+
+</RelativeLayout>
+
