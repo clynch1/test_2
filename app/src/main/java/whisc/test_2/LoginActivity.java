@@ -52,6 +52,7 @@ public class LoginActivity extends Activity {
                     if(loginstatus)
                     {
                         Toast.makeText(getBaseContext(), "Login Success----\n Welcome "+NAME, Toast.LENGTH_LONG).show();
+                        Toast.makeText(getBaseContext(), CR.getColumnCount(), Toast.LENGTH_LONG).show();
                         finish();
                     }
                     else

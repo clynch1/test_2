@@ -34,7 +34,7 @@ public class RegisterActivity extends Activity {
 
                 if(!(user_pass.equals(con_pass)))
                 {
-                    Toast.makeText(getBaseContext(),"Passwords are not matching", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getBaseContext(),"Passwords Do Not Match", Toast.LENGTH_LONG).show();
                     USER_NAME.setText("");
                     USER_PASS.setText("");
                     CON_PASS.setText("");
@@ -43,7 +43,7 @@ public class RegisterActivity extends Activity {
                 {
                     DatabaseOperations DB = new DatabaseOperations(ctx);
                     DB.putInformation(DB, user_name, user_pass);
-                    Toast.makeText(getBaseContext(), "Registration success", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getBaseContext(), "Registration Successful", Toast.LENGTH_LONG).show();
                     finish();
 
                 }
